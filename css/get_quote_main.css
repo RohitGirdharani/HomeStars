@@ -1,0 +1,145 @@
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #0004;
+    line-height: 80px;
+    position: fixed;
+    padding-bottom: 14px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li:hover{
+    background-color: crimson;
+    border-radius: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 13px;
+}
+.container{
+    position: relative;
+    text-align: center;
+    /* display: 50%; */
+    margin-left: 32%;
+    background-color: #0007;
+    width: 40%;
+    height: auto;
+    margin-top: 150px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    border-radius: 50px;
+
+}
+
+#main{
+
+    width: auto;
+    height: auto;
+    background-color: #a6a6a4; 
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+    background-size: cover;
+    text-align: center; 
+    /* background-size: auto;    */
+}
+
+
+input[type=search],select{
+    width: 70%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background-color: #0007;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    border-radius: 7px;
+    margin: 5px;
+    font-weight: bold;
+    margin-top: -8%;
+} 
+
+form{
+    color: #fff;
+
+}
+input[type="radio"], input[type="checkbox"]{
+    margin-left: 35px;
+    float: left;
+    /* margin-top: -8px; */    
+}
+
+h3{
+    color: #fff;
+    padding-bottom: -5%;
+}
+h4{
+    text-align: left;
+    margin-left: 5%;
+    color: #fff;
+}
+
+iframe{
+    margin-left: 5%;
+    width:850px;
+    height:400px; 
+    margin-top: 15%;
+}
+
+textarea{
+    width: 70%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background-color: #0007;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    border-radius: 7px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+input[type=text], input[type=email]{
+    width: 70%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background-color: #0007;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    border-radius: 7px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+
+.bt2
+{
+    margin-top: 3px;
+    padding:12px;
+    width: 8%;
+    background-color:rgb(95, 104, 86);
+    color:white;
+    border-radius: 8%;
+    cursor: pointer;  
+    margin-left: 4%;
+}
+.bt2 a{
+    color: #fff;
+    text-decoration: none;
+}
+.bt2:hover{
+    background-color: crimson;
+}
